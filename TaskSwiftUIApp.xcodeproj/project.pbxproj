@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB40F33227CFB8540017A475 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = EB40F33127CFB8540017A475 /* Realm */; };
+		EB40F33427CFB8540017A475 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EB40F33327CFB8540017A475 /* RealmSwift */; };
+		EB40F33627CFBD520017A475 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40F33527CFBD520017A475 /* DefaultData.swift */; };
+		EB40F33A27CFD3490017A475 /* ColorGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40F33927CFD3490017A475 /* ColorGrid.swift */; };
+		EB40F33C27D070DB0017A475 /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40F33B27D070DB0017A475 /* IconGrid.swift */; };
+		EB88413A27CE7DE00063F735 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88413927CE7DE00063F735 /* Task.swift */; };
+		EB88413D27CE82C50063F735 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88413C27CE82C50063F735 /* Config.swift */; };
+		EB88414127CE875C0063F735 /* NewTaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88414027CE875C0063F735 /* NewTaskRow.swift */; };
+		EB88414427CE8BB30063F735 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88414327CE8BB30063F735 /* PreviewData.swift */; };
+		EB88414627CF29B90063F735 /* TaskCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88414527CF29B90063F735 /* TaskCRUD.swift */; };
 		EB8ADC3327CBA469008D2C8E /* TaskSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC3227CBA469008D2C8E /* TaskSwiftUIAppApp.swift */; };
 		EB8ADC3527CBA469008D2C8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC3427CBA469008D2C8E /* ContentView.swift */; };
 		EB8ADC3727CBA46A008D2C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8ADC3627CBA46A008D2C8E /* Assets.xcassets */; };
@@ -14,6 +24,14 @@
 		EB8ADC4427CBA46A008D2C8E /* TaskSwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC4327CBA46A008D2C8E /* TaskSwiftUIAppTests.swift */; };
 		EB8ADC4E27CBA46A008D2C8E /* TaskSwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC4D27CBA46A008D2C8E /* TaskSwiftUIAppUITests.swift */; };
 		EB8ADC5027CBA46A008D2C8E /* TaskSwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC4F27CBA46A008D2C8E /* TaskSwiftUIAppUITestsLaunchTests.swift */; };
+		EB8ADC5D27CCA642008D2C8E /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC5C27CCA642008D2C8E /* ListRow.swift */; };
+		EB8ADC5F27CCA6A0008D2C8E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC5E27CCA6A0008D2C8E /* ListView.swift */; };
+		EB8ADC6227CCA79C008D2C8E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC6127CCA79C008D2C8E /* TaskView.swift */; };
+		EB8ADC6527CCA95F008D2C8E /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC6427CCA95F008D2C8E /* TaskRow.swift */; };
+		EB8ADC6827CCAD7C008D2C8E /* NewListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC6727CCAD7C008D2C8E /* NewListRow.swift */; };
+		EB8ADC6A27CCAE08008D2C8E /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC6927CCAE08008D2C8E /* TaskList.swift */; };
+		EB8ADC6C27CCB423008D2C8E /* ListModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ADC6B27CCB423008D2C8E /* ListModal.swift */; };
+		EBE8270327CD38F8001E028D /* TaskListCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8270227CD38F8001E028D /* TaskListCRUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB40F33527CFBD520017A475 /* DefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
+		EB40F33927CFD3490017A475 /* ColorGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGrid.swift; sourceTree = "<group>"; };
+		EB40F33B27D070DB0017A475 /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
+		EB88413927CE7DE00063F735 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EB88413C27CE82C50063F735 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		EB88414027CE875C0063F735 /* NewTaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskRow.swift; sourceTree = "<group>"; };
+		EB88414327CE8BB30063F735 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		EB88414527CF29B90063F735 /* TaskCRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCRUD.swift; sourceTree = "<group>"; };
 		EB8ADC2F27CBA469008D2C8E /* TaskSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8ADC3227CBA469008D2C8E /* TaskSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		EB8ADC3427CBA469008D2C8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +70,14 @@
 		EB8ADC4927CBA46A008D2C8E /* TaskSwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskSwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8ADC4D27CBA46A008D2C8E /* TaskSwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		EB8ADC4F27CBA46A008D2C8E /* TaskSwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB8ADC5C27CCA642008D2C8E /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		EB8ADC5E27CCA6A0008D2C8E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EB8ADC6127CCA79C008D2C8E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		EB8ADC6427CCA95F008D2C8E /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		EB8ADC6727CCAD7C008D2C8E /* NewListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListRow.swift; sourceTree = "<group>"; };
+		EB8ADC6927CCAE08008D2C8E /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		EB8ADC6B27CCB423008D2C8E /* ListModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModal.swift; sourceTree = "<group>"; };
+		EBE8270227CD38F8001E028D /* TaskListCRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCRUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB40F33427CFB8540017A475 /* RealmSwift in Frameworks */,
+				EB40F33227CFB8540017A475 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +107,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB40F33727CFBD600017A475 /* DefaultData */ = {
+			isa = PBXGroup;
+			children = (
+				EB40F33527CFBD520017A475 /* DefaultData.swift */,
+			);
+			path = DefaultData;
+			sourceTree = "<group>";
+		};
+		EB40F33827CFD3020017A475 /* ListModal */ = {
+			isa = PBXGroup;
+			children = (
+				EB8ADC6B27CCB423008D2C8E /* ListModal.swift */,
+				EB40F33927CFD3490017A475 /* ColorGrid.swift */,
+				EB40F33B27D070DB0017A475 /* IconGrid.swift */,
+			);
+			path = ListModal;
+			sourceTree = "<group>";
+		};
+		EB88413B27CE828C0063F735 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8270227CD38F8001E028D /* TaskListCRUD.swift */,
+				EB88414527CF29B90063F735 /* TaskCRUD.swift */,
+				EB88413C27CE82C50063F735 /* Config.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		EB88414227CE8B860063F735 /* PreviewData */ = {
+			isa = PBXGroup;
+			children = (
+				EB88414327CE8BB30063F735 /* PreviewData.swift */,
+			);
+			path = PreviewData;
+			sourceTree = "<group>";
+		};
 		EB8ADC2627CBA469008D2C8E = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +168,13 @@
 			children = (
 				EB8ADC3227CBA469008D2C8E /* TaskSwiftUIAppApp.swift */,
 				EB8ADC3427CBA469008D2C8E /* ContentView.swift */,
+				EB8ADC6027CCA6A9008D2C8E /* List */,
+				EB8ADC6327CCA7A7008D2C8E /* Task */,
+				EB40F33827CFD3020017A475 /* ListModal */,
+				EB8ADC6627CCACCF008D2C8E /* Model */,
+				EB88413B27CE828C0063F735 /* Realm */,
+				EB40F33727CFBD600017A475 /* DefaultData */,
+				EB88414227CE8B860063F735 /* PreviewData */,
 				EB8ADC3627CBA46A008D2C8E /* Assets.xcassets */,
 				EB8ADC3827CBA46A008D2C8E /* Preview Content */,
 			);
@@ -127,6 +206,35 @@
 			path = TaskSwiftUIAppUITests;
 			sourceTree = "<group>";
 		};
+		EB8ADC6027CCA6A9008D2C8E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EB8ADC5E27CCA6A0008D2C8E /* ListView.swift */,
+				EB8ADC5C27CCA642008D2C8E /* ListRow.swift */,
+				EB8ADC6727CCAD7C008D2C8E /* NewListRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		EB8ADC6327CCA7A7008D2C8E /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				EB8ADC6127CCA79C008D2C8E /* TaskView.swift */,
+				EB8ADC6427CCA95F008D2C8E /* TaskRow.swift */,
+				EB88414027CE875C0063F735 /* NewTaskRow.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		EB8ADC6627CCACCF008D2C8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB8ADC6927CCAE08008D2C8E /* TaskList.swift */,
+				EB88413927CE7DE00063F735 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +251,10 @@
 			dependencies = (
 			);
 			name = TaskSwiftUIApp;
+			packageProductDependencies = (
+				EB40F33127CFB8540017A475 /* Realm */,
+				EB40F33327CFB8540017A475 /* RealmSwift */,
+			);
 			productName = TaskSwiftUIApp;
 			productReference = EB8ADC2F27CBA469008D2C8E /* TaskSwiftUIApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +327,9 @@
 				Base,
 			);
 			mainGroup = EB8ADC2627CBA469008D2C8E;
+			packageReferences = (
+				EB40F33027CFB8540017A475 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = EB8ADC3027CBA469008D2C8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +372,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE8270327CD38F8001E028D /* TaskListCRUD.swift in Sources */,
+				EB8ADC6227CCA79C008D2C8E /* TaskView.swift in Sources */,
+				EB88414627CF29B90063F735 /* TaskCRUD.swift in Sources */,
+				EB8ADC6A27CCAE08008D2C8E /* TaskList.swift in Sources */,
+				EB8ADC5F27CCA6A0008D2C8E /* ListView.swift in Sources */,
+				EB88413A27CE7DE00063F735 /* Task.swift in Sources */,
+				EB40F33C27D070DB0017A475 /* IconGrid.swift in Sources */,
+				EB88413D27CE82C50063F735 /* Config.swift in Sources */,
 				EB8ADC3527CBA469008D2C8E /* ContentView.swift in Sources */,
+				EB8ADC6527CCA95F008D2C8E /* TaskRow.swift in Sources */,
+				EB8ADC6827CCAD7C008D2C8E /* NewListRow.swift in Sources */,
+				EB8ADC6C27CCB423008D2C8E /* ListModal.swift in Sources */,
+				EB40F33A27CFD3490017A475 /* ColorGrid.swift in Sources */,
+				EB40F33627CFBD520017A475 /* DefaultData.swift in Sources */,
+				EB88414127CE875C0063F735 /* NewTaskRow.swift in Sources */,
+				EB88414427CE8BB30063F735 /* PreviewData.swift in Sources */,
 				EB8ADC3327CBA469008D2C8E /* TaskSwiftUIAppApp.swift in Sources */,
+				EB8ADC5D27CCA642008D2C8E /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +716,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB40F33027CFB8540017A475 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB40F33127CFB8540017A475 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB40F33027CFB8540017A475 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		EB40F33327CFB8540017A475 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB40F33027CFB8540017A475 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB8ADC2727CBA469008D2C8E /* Project object */;
 }

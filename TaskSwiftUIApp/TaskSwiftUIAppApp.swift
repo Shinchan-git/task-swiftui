@@ -12,6 +12,7 @@ struct TaskSwiftUIAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.realmConfiguration, Config.config(v: 4))
         }
     }
 }
