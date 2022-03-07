@@ -21,7 +21,7 @@ struct ListIcon: Identifiable {
 
 class DefaultData {
     
-    //Colors
+    //List colors
     static let defaultColor = ListColor(name: "blue", color: .blue)
     
     static let listColors = [
@@ -43,7 +43,7 @@ class DefaultData {
         return color.color
     }
     
-    //Icons
+    //List icons
     static let defaultIcon = ListIcon(name: "list.bullet")
     
     static let listIcons = [
